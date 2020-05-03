@@ -15,7 +15,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "docs:build": "documentation build src/** -f html -o docs"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -33,6 +34,7 @@
     ]
   },
   "devDependencies": {
+    "documentation": "^12.3.0",
     "jsdoc": "^3.6.4"
   }
 }
